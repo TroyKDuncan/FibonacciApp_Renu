@@ -97,3 +97,6 @@ public
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Angular CLI cache and configuration
+.angular
