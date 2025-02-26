@@ -98,5 +98,6 @@ public
 .yarn/install-state.gz
 .pnp.*
 
-# Angular CLI cache and configuration
+# Angular CLI cache and configuration and vscode
 .angular
+.vscode

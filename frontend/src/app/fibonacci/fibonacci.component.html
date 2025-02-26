@@ -1,0 +1,27 @@
+<div class="min-h-screen flex items-center justify-center bg-gradient-to-r from-slate-800 to-pink-400 font-mono">
+    <div class="bg-slate-300 p-8 rounded-lg shadow-lg lg:w-3/4 md:w-3/4 sm:w-4/5 m-16">
+      <h1 class="lg:text-3xl md:text-xl sm:text-lg text-slate-800 mb-6 text-center">Fibonacci Sequence Generator</h1>
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700">Enter a number:</label>
+        <input
+          type="number"
+          [(ngModel)]="number"
+          (input)="onInputChange()"
+          class="mt-1 block w-full px-5 py-4 border border-gray-300 rounded-full shadow-md focus:outline-none focus:ring-pink-500 focus:border-pink-500"
+        />
+      </div>
+      <button
+        (click)="getFibonacci()"
+        class="w-full bg-pink-500 text-white py-2 px-4 rounded-md hover:bg-pink-400 focus:outline-none focus:ring-1 focus:ring-slate-800"
+      >
+        Calculate
+      </button>
+      <div *ngIf="sequence.length > 0" class="mt-6">
+        <h3 class="text-lg font-semibold mb-2">Fibonacci Sequence:</h3>
+        <p class="text-gray-700">{{ sequence.join(', ') }}</p>
+      </div>
+      <div *ngIf="sequence.length < 1" class="mt-6">
+        <p class="text-gray-700 text-sm">Enter or select a positive integer</p>
+      </div>
+    </div>
+  </div>
