@@ -1,7 +1,7 @@
 # How to Use This
 
 ## Prerequisites
-- Ensure that python, pip, and npm are installed
+- Ensure that python, pip, Node.js, and npm are installed
 
 ## Run the Application
 
