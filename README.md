@@ -12,7 +12,7 @@ python -m ensurepip --upgrade
 
 ## Run the Application
 
-- Run these commands in a terminal to run the unit tests and backend locally (you may need to use "python3" instead of "python" depending on your device)
+- Run these commands in a terminal to execute the unit tests and run the backend locally (you may need to use "python3" instead of "python" depending on your device)
 
 ```sh 
 cd backend
