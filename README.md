@@ -12,7 +12,7 @@ python -m ensurepip --upgrade
 
 ## Run the Application
 
-- Run these commands in a terminal to run the unit tests and backend locally (you may need to use "python3" instead of "python" depending on your device)
+- Run these commands in a terminal to run the unit tests and backend locally (you may need to use "python3" and "pip3" instead of "python" and "pip" depending on your device)
 
 ```sh 
 cd backend
@@ -22,7 +22,7 @@ python backend.py # Runs backend locally
 ```
 
 - Leave the backend running in that terminal
-- Next, open a new terminal in the repository's root directory and run this command to start the frontend (this might take some time)
+- Next, open a new terminal in the repository's root directorygit  and run this command to start the frontend (this might take some time)
 
 ```sh
 python run_frontend.py
