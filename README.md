@@ -1,20 +1,21 @@
 # How to Use This
 
 ## Prerequisites
-- Ensure that both python and npm are installed
-- Optionally, you may want to use a fresh virtual environment
+- Ensure that python, pip, and npm are installed
 
 ## Run the Application
 
-- Run this command in its own terminal to run the unit tests and backend locally (you may need to use "python3" instead of "python" depending on your device)
+- Run these commands in a terminal to run the unit tests and backend locally (you may need to use "python3" instead of "python" depending on your device)
 
 ```sh 
 cd backend
+pip install flask flask-cors
 python test_backend.py # Runs unit tests
 python backend.py # Runs backend locally
 ```
 
-- Next, open a new terminal and run this command to start the frontend
+- Leave the backend running in that terminal
+- Next, open a new terminal and run this command to start the frontend (this might take some time)
 
 ```sh
 python run_frontend.py
