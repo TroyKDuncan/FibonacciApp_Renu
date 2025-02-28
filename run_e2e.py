@@ -11,7 +11,6 @@ def main():
     project_root = os.path.dirname(os.path.abspath(__file__))
     frontend_dir = os.path.join(project_root, "frontend")
 
-    # Run Cypress end-to-end tests
     print("Running Cypress end-to-end tests...")
     run_command("npm run e2e", cwd=frontend_dir)
 

@@ -4,7 +4,6 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-fibonacci',
   templateUrl: './fibonacci.component.html',
-  styleUrls: ['./fibonacci.component.css'],
 })
 export class FibonacciComponent {
   number: number = 0;
