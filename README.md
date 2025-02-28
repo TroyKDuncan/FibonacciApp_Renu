@@ -1,7 +1,14 @@
 # How to Use This
 
-## Prerequisites
-- Ensure that python, pip, Node.js, and npm are installed
+## Ensure that python, pip, Node.js, and npm are installed
+- For python, follow the documentation at https://www.python.org/downloads/
+- For pip run the following: 
+
+```sh
+python -m ensurepip --upgrade
+```
+
+- For Node.js and npm, go to https://nodejs.org/en/download/
 
 ## Run the Application
 
@@ -15,7 +22,7 @@ python backend.py # Runs backend locally
 ```
 
 - Leave the backend running in that terminal
-- Next, open a new terminal and run this command to start the frontend (this might take some time)
+- Next, open a new terminal in the repository's root directory and run this command to start the frontend (this might take some time)
 
 ```sh
 python run_frontend.py
