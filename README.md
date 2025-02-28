@@ -9,7 +9,9 @@
 - Run this command in its own terminal to run the unit tests and backend locally (you may need to use "python3" instead of "python" depending on your device)
 
 ```sh 
-python run_backend.py
+cd backend
+python test_backend.py # Runs unit tests
+python backend.py # Runs backend locally
 ```
 
 - Next, open a new terminal and run this command to start the frontend
@@ -19,7 +21,7 @@ python run_frontend.py
 ```
 
 - Open a browser and navigate to http://localhost:4200/ to use the application
-- Lastly, run the E2E tests by running this command
+- Lastly, open a third terminal and run the E2E tests by running this command
 
 ```sh
 python run_e2e.py
