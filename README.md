@@ -22,7 +22,7 @@ python backend.py # Runs backend locally
 ```
 
 - Leave the backend running in that terminal
-- Next, open a new terminal in the repository's root directorygit  and run this command to start the frontend (this might take some time)
+- Next, open a new terminal in the repository's root directory and run this command to start the frontend (this might take some time)
 
 ```sh
 python run_frontend.py
